@@ -36,7 +36,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex: 1;
+    flex: 1; /* fills all space between header and footer, pinning them to the top/bottom */
     line-height: 1.5;
 }
 
@@ -60,7 +60,7 @@ button {
     font-size: 1.1rem;
     font-weight: bold;
     border-radius: 5rem;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.75);
     cursor: pointer;
 }
 
