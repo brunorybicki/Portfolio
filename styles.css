@@ -1,0 +1,55 @@
+html {
+    position: relative;
+    min-height: 100vh;
+    font-family: "Roboto", sans-serif;
+    color: #FFFFFF;
+    background: linear-gradient(135deg, #0274B3, #1B2023);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    text-align: center;
+    background: url("assets/cccoil.svg");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
+
+header, footer {
+    padding: 0 1rem;
+    margin: 1rem 0;
+    color: #066ba4;
+    font-weight: bold;
+    border-radius: 5rem;
+    background-color: #FFFFFF;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.bio {
+    font-size: 1.25rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 0;
+    gap: 0.5rem;
+}
