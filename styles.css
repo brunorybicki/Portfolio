@@ -3,6 +3,7 @@ html {
     min-height: 100vh;
     font-family: "Roboto", sans-serif;
     color: #FFFFFF;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     background: linear-gradient(135deg, #0274B3, #1B2023);
 }
 
@@ -24,7 +25,7 @@ body {
 header, footer {
     padding: 0 1rem;
     margin: 1rem 0;
-    color: #066ba4;
+    color: #066BA4;
     font-weight: bold;
     border-radius: 5rem;
     background-color: #FFFFFF;
@@ -52,4 +53,30 @@ h1 {
     flex-direction: row;
     margin: 2rem 0;
     gap: 0.5rem;
+}
+
+button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 5rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFFFFF;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: black;
+    text-decoration: none;
+}
+
+a img {
+    width: 1.3rem;
+    height: 1.3rem;
 }
